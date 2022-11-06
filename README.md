@@ -1,4 +1,4 @@
-![ima](images/king_county.jpg)
+![ima](images/SandvikDD422i.jpg)
 
 # Byrnecut Australia Advance Predictor
 
@@ -44,30 +44,29 @@ I used a variety of functions based on functions imported from the sklearn libra
 ### Results
 Here is the function that i produced to determine advance using my final data model
 
-![fnc](images/function.png)
+![fnc](images/prediction.JPG)
 
 From the model that i created i was able to answer the questions that were asked in the beginning
 
-![res](images/results_bath.PNG)
+![res](images/res_sml.JPG)
 
-Adding a bathroom could potentially add $35112 to the house sale price
+Adding an extra small heading wil add 6.3m to the week
 
-![ress](images/results_sqft.PNG)
+![ress](images/res_large.JPG)
 
-Per sqft adds approximately $195 to the sale price
+Adding an extra large heading will add 5.4m to the week
 
-![resss](images/results_grade.PNG)
+![resss](images/res_train.JPG)
 
-A change in grade of the house could potentially increase the price by $276017
+If we swap out one of our frontliners with a trainee it will cost us 12m for the week
 
 ### Conclusions
 
-From this analysis and model production. I can conclude that century 21 should use the size of the house, the grade, condition, number of bedrooms and number of bathrooms to determine a potential sale price. Grade is a strong determing factor in sale price, being an increase in approximately $276017 for the median sale in this dataset. 
+From this analysis and model production. I can conclude that Byrnecut should use the quantity of rigs, level of operators, date, size of the headings and quantity of the headings available to determine the expected advance for each week.
 
-This model isnt very accurate at determining an actual price. Its better used for calculating increase in value based on different changes in values of features for a house. My Model determines a mean average error of +- $164,000 hence why this shouldnt be used to determine the actual prices of the houses.
+This model is able to be used to determine the expected advance for each week quite accurately. Through  conducting real world testing this week the prediction is within 0.5m per day.
 
-As i removed quite a few features from this analysis, i was not able to determine a lower mean average error. This may have been reduced by splitting up the sales into their date ranges aswell as location data. As usually closer to cities will produce a higher price per sqft. Going forward i would use these values in a future analysis.
-
+![ressss](images/res_current.JPG)
 
 ### For more information
 
