@@ -18,7 +18,7 @@ Byrnecut wants to gain a better understanding of expectations for their developm
 
 1 dataset is used. This data set is the JumboData.csv
 
-#### Column Names and descriptions for Kings County Data Set
+#### Column Names and descriptions for the JumboData dataset
 
 - **Equipment ID** - The equipment number for each jumbo used
 - **Front Liner?** - Whether or not a front liner was operating the jumbo
